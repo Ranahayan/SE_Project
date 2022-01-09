@@ -1,0 +1,729 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#maincontainer {
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    left: -1px;
+}
+
+#system {
+    height: 2rem;
+    width: 99.7vw;
+    background-color: rgb(46, 161, 228);
+    position: absolute;
+    top: 0px;
+    left: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* ///////////////////////////////////////////container2//////////////////////////////////////////// */
+
+#container2::before {
+    content: "";
+    background: url("main.jpg");
+    position: absolute;
+    background-size: cover;
+    height: 93.5vh;
+    width: 81vw;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+
+#container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ////////////////////////////////menu//////////////////////////////////////////////////////// */
+
+#menu {
+    height: 37rem;
+    width: 16rem;
+    background-color: rgb(23, 33, 37);
+}
+
+#menu .items {
+    /* height: 4rem; */
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0px 2px;
+    margin-right: -374px;
+}
+
+#menu .items {
+    /* height: 4rem; */
+    width: 16rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0px 2px;
+    margin-right: -374px;
+}
+
+#menu .items1 {
+    height: 5rem;
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-left: -103rem;
+    margin: 0px 0px;
+}
+
+#menu .items .act {
+    height: 4rem;
+    width: 0.7rem;
+}
+
+#menu .items #act1 {
+    background-color: blue;
+}
+
+#menu .items .icon {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+}
+
+#menu .items .link .ddd {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 11.5rem;
+    background-color: rgb(23, 33, 37);
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu .items .link .ddd:hover {
+    border-radius: 13px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#menu .items .linkk #special {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    width: 11.5rem;
+    background-color: rgb(23, 33, 37);
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+#menu .items .link-content {
+    display: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    /* position: absolute; */
+    height: 3.3rem;
+    width: 12rem;
+    z-index: 1;
+}
+
+#menu .items .link-content .drop {
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.486);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    width: 12rem;
+    padding: 4px 0px;
+    border-radius: 3px;
+}
+
+#menu .items .link-content .drop:hover {
+    background-color: white;
+    color: black;
+}
+
+#menu .items .linkk #special:hover {
+    background-color: white;
+    color: black;
+    border-radius: 13px;
+}
+
+#menu .items .linkk:hover .link-content {
+    display: block;
+}
+
+/* /////////////////////////////////////page/////////////////////////////////////////////////////////// */
+
+#page {
+    display: flex;
+    align-items: center;
+    width: 81vw;
+    background-color: rgba(0, 0, 0, 0.562);
+    height: 3rem;
+    color: white;
+    font-size: 2rem;
+}
+
+/* /////////////////////////////////////////container2////////////////////////////////////////////////// */
+
+#container2 #refersh button{
+    color: white;
+    
+    width: 44px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6px;
+    background-color:rgba(194, 188, 188, 0.171);
+
+    border: none;
+    border-radius: 5px;
+}
+
+#container2 #refersh button:hover{
+    background-color:rgba(148, 143, 143, 0.87);
+    color: rgb(255, 255, 255);
+}
+    
+
+/* /////////////////////////////////////////main////////////////////////////////////////////////// */
+
+#main {
+    height: 31.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* /////////////////////////////////////////inner-container////////////////////////////////////////////////// */
+
+#main #inner-container {
+    height: 31rem;
+    width: 68rem;
+    background-color: rgba(255, 255, 255, 0.596);
+    border-radius: 5px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#main #inner-container #inner_top {
+    height: 3rem;
+    width: 68rem;
+    background-color: rgba(255, 255, 255, 0.795);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main #inner-container #inner_top h4 {
+    display: inline-block;
+    margin: 0%;
+    width: 25rem;
+}
+
+#main #inner-container #inner_top .search #loan_sear {
+    height: 39px;
+    width: 169px;
+    border-radius: 5px;
+}
+
+#main #inner-container #inner_top .search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 320px;
+}
+
+#main #inner-container #inner_top .search #search_butt {
+    background-color: rgb(10, 46, 161);
+    border: none;
+    margin-left: 3px;
+    border-radius: 5px;
+    color: white;
+}
+
+#main #inner-container #inner_top .search #search_butt:hover {
+    background-color: rgba(9, 24, 231, 0.925);
+    cursor: pointer;
+}
+
+#main #inner-container #inner_top #create_app {
+    background-color: rgb(10, 46, 161);
+    height: 39px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+#main #inner-container #inner_top #create_app:hover {
+    background-color: rgba(9, 24, 231, 0.925);
+    cursor: pointer;
+}
+#main #inner-container #inner_top #create_app:active{
+    background-color: rgb(7, 35, 128);
+
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+
+/* //////////////////////////////////////show/////////////////////////////////////////////// */
+
+
+#show {
+    height: 92%;
+    width: 81.5%;
+    background-color: rgba(0, 0, 0, 0.473);
+    position: absolute;
+    margin: 7px;
+    top: 37px;
+    left: 248px;
+    display: none;
+  
+}
+
+#sure{
+    height: 92%;
+    width: 81.5%;
+    background-color: rgba(0, 0, 0, 0.473);
+    position: absolute;
+    margin: 7px;
+    top: 37px;
+    left: 248px;
+    display: none;
+    z-index: 12;
+}
+
+#sure form p strong{
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 23px;
+    padding: 0px 5px;
+    margin: 0px;
+    box-shadow: 6px 7px 16px 5px rgb(54 53 52); 
+}
+
+#sure form{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+#show p{
+    width: 70%;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 23px;
+    padding: 0px 5px;
+    margin: 0px;
+    box-shadow: 6px 7px 16px 5px rgb(54 53 52); 
+}
+
+
+/* //////////////////////////////////////form/////////////////////////////////////////////// */
+
+#form .mdform form {
+    margin: 10px 10px;
+}
+
+#form {
+    height: 100%;
+    width: 80.5%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+
+#form .mdform {
+    background-color: rgb(219, 215, 215);
+    width: 90%;
+    height: 97%;
+    border-radius: 5px;
+    color: black;
+
+}
+
+#form .mdform #from_title {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#form .mdform form .form-row {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+#form .mdform form .form-row .select1 {
+    margin: 0px 5px;
+    display: inline-block;
+    width: auto;
+    width: 45%;
+}
+
+#form .mdform form .form-row .select1 .slect_content {
+    display: flex;
+    flex-direction: column;
+}
+
+#form .mdform form .form-row select {
+    width: 99%;
+    display: inline;
+}
+
+#form .mdform form .parent_calculated {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+#form .mdform form .parent_calculated .calculated .child_calculated {
+    display: inline-block;
+    height: 38px;
+    border-radius: 3px;
+    width: 250px;
+    border: none;
+    color: rgb(32, 32, 32);
+}
+
+#form .mdform form .parent_calculated .calculated {
+    margin-right: 30px;
+}
+
+#form .mdform form .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+    margin-bottom: 12px;
+}
+
+#form .mdform form .button button {
+    margin: 0px 30px;
+    width: 12%;
+}
+
+#form .mdform form .button input {
+    margin: 0px 30px;
+    width: 12%;
+}
+
+ #statuss {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0px;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+#statusss {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ #statuss select {
+    background-color: rgba(9, 24, 231, 0.925);
+    width: 120px;
+    height: 28px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+ #statusss button {
+    margin: 0px 4px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    cursor: pointer;
+    background-color: rgba(250, 238, 215, 0.425);
+    display: flex;
+    justify-content: center;
+}
+
+#statusss a {
+    margin: 0px 4px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    cursor: pointer;
+    background-color: rgba(250, 238, 215, 0.425);
+    display: flex;
+    justify-content: center;
+    width: 30px;
+}
+
+#statusss a:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+ #statusss button:hover {
+    background-color: rgb(255, 255, 255);
+}
+/* //////////////////////////////////////Form1/////////////////////////////////////////////// */
+#form1 .mdform form {
+    margin: 10px 10px;
+}
+
+#form1 {
+    height: 100%;
+    width: 80.5%;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+#form1 .mdform {
+    background-color: rgb(219, 215, 215);
+    width: 90%;
+    height: 88%;
+    border-radius: 5px;
+    color: black;
+
+}
+
+#form1 .mdform #from_title {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#form1 .mdform form .form-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#form1 .mdform form .form-row .select1 {
+    margin: 0px 5px;
+    display: inline-block;
+    width: auto;
+    width: 45%;
+}
+
+
+#form1 .mdform form .form-row .select1 .slect_content {
+    display: flex;
+    flex-direction: column;
+}
+
+#form11 .mdform form .form-row select {
+    width: 85%;
+    display: inline;
+}
+
+#form1 .mdform form .parent_calculated {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 19px;
+}
+
+#form1 .mdform form .parent_calculated .calculated .child_calculated {
+    display: inline-block;
+    height: 38px;
+    border-radius: 3px;
+    width: 250px;
+    border: none;
+    color: rgb(32, 32, 32);
+}
+
+#form1 .mdform form .parent_calculated .calculated {
+    margin-right: 30px;
+}
+
+#form1 .mdform form .button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+    margin-bottom: 12px;
+}
+
+#form1 .mdform form .button button {
+    margin: 0px 30px;
+    width: 12%;
+}
+
+#form1 .mdform form .button input {
+    margin: 0px 30px;
+    width: 12%;
+}
+
+
+/* //////////////////////////////////////Table/////////////////////////////////////////////// */
+
+#main #inner-container #table {
+    height: 67%;
+    z-index: -1;
+    overflow-y: auto;
+}
+
+#main #inner-container table {
+    margin: 0%;
+    width: 97%;
+    margin: auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-collapse: collapse;
+}
+
+#main #inner-container #table table thead th:first-child{
+    position: sticky;
+    z-index: 2;
+}
+#main #inner-container #table table thead th{
+    position: sticky;
+    top: -1;
+    z-index: 1;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font: 100;
+}
+
+#main #inner-container table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    vertical-align: top;
+    margin: auto;
+}
+
+#main #inner-container table #ID {
+    width: 55px;
+    margin: 7px 4px;
+    text-align: center;
+}
+
+#main #inner-container table #table_borrower_detail div {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    margin: 7px 4px;
+    /* border-bottom: 1px dotted rgba(0, 0, 0, 0.452); */
+}
+
+#main #inner-container table #table_borrower_detail .loan_span1 {
+    width: 100px;
+    margin-right: 10px;
+    height: auto;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#main #inner-container table #table_borrower_detail .loan_span {
+    word-wrap: break-word;
+    width: 115px;
+}
+
+#main #inner-container table #table_loan_detail div {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    margin: 7px 4px;
+}
+
+#main #inner-container table #table_loan_detail .loan_span1 {
+    width: 115px;
+    height: auto;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#main #inner-container table #table_loan_detail .loan_span {
+    word-wrap: break-word;
+    width: 115px;
+}
+
+#main #inner-container table #next_payment_detail div {
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    margin: 7px 4px;
+}
+
+#main #inner-container table #next_payment_detail .loan_span1 {
+    width: 100px;
+    margin-right: 10px;
+    height: auto;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#main #inner-container table #next_payment_detail .loan_span {
+    word-wrap: break-word;
+    width: 115px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.copy span {
+    color: white;
+}
+
+footer {
+    border-radius: 23px;
+    background-color: black;
+    height: 2rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
