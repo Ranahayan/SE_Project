@@ -1,1 +1,1 @@
-branch2 is just created
+branch2 is just modified
